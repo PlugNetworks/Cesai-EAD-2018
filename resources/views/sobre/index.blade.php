@@ -2,6 +2,8 @@
 
 @section('content')
 
-    <h1>Quem Somos</h1>
+    <div class="container">
+        <h1>Quem Somos</h1>
+    </div>
 
 @stop
