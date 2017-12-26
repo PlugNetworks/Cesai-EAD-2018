@@ -163,7 +163,7 @@
     </div>
 </div>
 
-<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Volta para o Início da Pagina" data-toggle="tooltip" data-placement="left"><span class="icon-circle-up"></span></a>
+<a id="back-to-top" href="#" class="btn btn-warning btn-lg back-to-top" role="button" title="Ir para o topo" data-toggle="tooltip" data-placement="top"><span class="icon-circle-up"></span></a>
 
 <script>
     $(document).ready(function(){
