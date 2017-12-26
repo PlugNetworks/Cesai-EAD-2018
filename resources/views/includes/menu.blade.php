@@ -17,7 +17,7 @@
                     <a class="nav-link" href="#" id="link-menu"><span class="icon-ribbon"></span> Nosso Método</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="{{ url('/cursos') }}" id="link-menu"><span class="icon-beaker"></span> Cursos</a>
+                    <a class="nav-link" href="{{ url('/todos/cursos') }}" id="link-menu"><span class="icon-beaker"></span> Cursos</a>
                 </li>
                 <li class="nav-item dropdown mr-3">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
