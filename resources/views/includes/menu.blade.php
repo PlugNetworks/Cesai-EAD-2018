@@ -23,7 +23,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="icon-basket2"></span> Categorias
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdow-style">
                         @foreach($CategoriaModels as $categoria)
                         <a class="dropdown-item" href="{{ url('/categoria') }}/{{ $categoria->page }}"><span class="icon-bookmark"></span> {{ $categoria->categoria }}</a>
                         @endforeach
