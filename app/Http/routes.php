@@ -7,7 +7,7 @@ Route::get('/quemsomos', 'SobreController@index');
 
 Route::get('/metodo', 'MetodoController@index');
 
-Route::get('/cursos', 'CursosController@index');
+Route::get('/cursos', 'CursoController@index');
 
 Route::get('/categoria/administracao', 'PageAdministracao@index');
 
