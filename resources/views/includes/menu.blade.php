@@ -14,7 +14,7 @@
                     <a class="nav-link" href="{{ url('/quemsomos') }}" id="link-menu"><span class="icon-pricetags"></span> Quem Somos</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="#" id="link-menu"><span class="icon-ribbon"></span> Nosso Método</a>
+                    <a class="nav-link" href="{{ url('/metodo') }}" id="link-menu"><span class="icon-ribbon"></span> Nosso Método</a>
                 </li>
                 <li class="nav-item mr-3">
                     <a class="nav-link" href="{{ url('/todos/cursos') }}" id="link-menu"><span class="icon-beaker"></span> Cursos</a>
@@ -30,7 +30,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" id="link-menu"><span class="icon-envelope2"></span> Contatos</a>
+                    <a class="nav-link" href="{{ url('/contatos') }}" id="link-menu"><span class="icon-envelope2"></span> Contatos</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
