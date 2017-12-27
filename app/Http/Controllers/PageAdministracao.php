@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 Use DB;
 Use App\CategoriaModel;
 Use App\Pageadminist;
+Use App\CursoInfo;
 use App\Http\Requests;
 
 class PageAdministracao extends Controller
@@ -14,10 +15,11 @@ class PageAdministracao extends Controller
     {
         $CategoriaModels        = CategoriaModel::orderBy('id')->get();
         $pageadminists            = pageadminist::orderBy('id')->get();
+        $CursoInfos              = CursoInfo::orderBy('id')->get();
 
         return view('categorias.administracao', [
 
-        ], compact('CategoriaModels', 'pageadminists'));
+        ], compact('CategoriaModels', 'pageadminists', 'CursoInfos'));
     }
 
     public function detalhes($id)
