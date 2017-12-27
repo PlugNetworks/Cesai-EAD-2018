@@ -25,11 +25,11 @@ class PageAdministracao extends Controller
     public function detalhes($id)
     {
         $CategoriaModels        = CategoriaModel::orderBy('id')->get();
-
+        $CursoInfos              = CursoInfo::orderBy('id')->get();
         $pageadminists  = Pageadminist::find($id);
 
         return view('categorias.detalhes', [
             'pageadminists' => $pageadminists,
-        ], compact('CategoriaModels'));
+        ], compact('CategoriaModels', 'CursoInfos'));
     }
 }
