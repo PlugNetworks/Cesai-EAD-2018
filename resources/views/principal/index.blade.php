@@ -151,7 +151,7 @@
                                 A verdade é que não importa a idade, estudar é sempre algo positivo e válido, porque mais do que aumentar as oportunidades profissionais é também um exercício constante para o cérebro.
                                 Um ponto positivo do formato de ensino a distância do CESAI-EAD é que sendo interativo e de fácil aprendizado, abarca pessoas de todas as idades e pelo seu valor ser acessível, abarca também todas as classes sociais.
                             </p>
-                            <a href="" class="btn btn-outline-info btn-block btn-lg">Saiba Mais...</a>
+                            <a href="" class="btn btn-outline-info btn-block btn-lg">Mais Informações...</a>
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
                         <div class="col-xl-7">
                             <p class="lead text-justify">O objetivo do curso de informática para crianças (Kids) é formar o aluno kids com qualificação capaz de entender e executar processos básicos da micro informática, sistema operacional, internet, editores de textos e apresentações de slides. O aluno adquire conhecimentos para utilizar o computador, para realizar tarefas escolares visando desenvolver o raciocínio e o desenvolvimento escolar.
                             </p>
-                            <a href="" class="btn btn-outline-info btn-block btn-lg mt-5">Saiba Mais...</a>
+                            <a href="" class="btn btn-outline-info btn-block btn-lg mt-5">Mais Informações...</a>
                         </div>
                     </div>
                 </div>
